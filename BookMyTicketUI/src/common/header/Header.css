@@ -1,0 +1,23 @@
+.header {
+  background-color: purple;
+  height: 35px;
+  padding: 11px;
+}
+
+.logo {
+  background-color: #ff7f7f;
+  height: 35px;
+}
+
+.brandTitle {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: white;
+  padding-left: 15px;
+
+
+} 
+
+.login-button {
+  float: right;
+}

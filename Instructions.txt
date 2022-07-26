@@ -1,0 +1,10 @@
+application is running on 8081
+
+starting UI 
+-> please use "npm install" to install node modules and "npm start" to start UI
+
+
+starting Backend
+
+->Please change MySql password in application.properties file
+->Application can be started normally by using mvn commands or even can be started by running application on IntelliJ
