@@ -1,4 +1,5 @@
-application is running on 8081
+Database Used in MySQL
+please load script in resources->DBLoadScript so that database shows bus details
 
 starting UI 
 -> please use "npm install" to install node modules and "npm start" to start UI
