@@ -23,7 +23,7 @@ import java.time.ZonedDateTime;
 
 
 /**
- * User Entity JPA mapping class.
+ * User Entity JPA mapping class...
  **/
 @Data
 @Entity
