@@ -33,6 +33,7 @@ const Header = ({ baseUrl, isLogin, setIsLogin }) => {
   const [value, setValue] = useState(0);
 
   // Toggle Modal Status
+
   const toggleModalHandler = () => {
     if (isLogin == true) {
       setOpenModal(!openModal);

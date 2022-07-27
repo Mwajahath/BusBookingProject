@@ -12,12 +12,6 @@ const Home = ({ baseUrl }) => {
     setValue(value);
   };
 
-
-  useEffect(() => {
-
-    // eslint-disable-next-line
-  }, [isLogin]);
-
   return (
     <div>
       <Header baseUrl={baseUrl} isLogin={isLogin} setIsLogin={setIsLogin} />
@@ -31,8 +25,8 @@ const Home = ({ baseUrl }) => {
       </Tabs>
       {value === 0 && (
         <Booking
-
           baseUrl={baseUrl}
+          isLogin={isLogin}
         />
       )}
     </div>
